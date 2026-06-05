@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>21 | French Restaurant</title>
+  <meta name="description" content="21は、東京都内で不定期に開くポップアップ形式のフレンチレストランです。基本コース 8,800円から。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="サイトヘッダー">
+    <a class="brand" href="#top" aria-label="21 トップへ">21</a>
+    <nav class="nav" aria-label="主要ナビゲーション">
+      <a href="#course">Course</a>
+      <a href="#popup">Popup</a>
+      <a href="#info">Info</a>
+      <a class="reserve-link" href="#reserve">Reserve</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="21 フレンチレストラン">
+      <img class="hero-image" src="assets/salmon-wellington.jpg" alt="サーモンのパイ包みとソース">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="kicker">Popup French Restaurant</p>
+        <h1>21</h1>
+        <p class="lead">季節の香りを、静かな一皿ずつ。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#reserve">予約する</a>
+          <a class="button secondary" href="#course">コースを見る</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" aria-label="レストラン紹介">
+      <div>
+        <p class="section-label">Concept</p>
+        <h2><span class="keep">基本はコース。</span><span class="keep">食材の移ろいに合わせて、</span><span class="keep">夜の流れを仕立てます。</span></h2>
+      </div>
+      <p>21は、<span class="keep">東京都内のさまざまな場所で</span><span class="keep">不定期に開く</span>ポップアップ形式のフレンチレストランです。<span class="keep">会場も席数も、</span><span class="keep">その回ごとに変わります。</span>肩肘を張りすぎず、けれど一皿ごとの余韻はきちんと残るように。火入れ、ソース、香りの重なりを大切にしています。</p>
+    </section>
+
+    <section id="course" class="course-section">
+      <div class="section-heading">
+        <p class="section-label">Course</p>
+        <h2>季節の基本コース</h2>
+      </div>
+      <div class="course-layout">
+        <div class="course-main">
+          <p class="course-name">Basic Course</p>
+          <p class="course-text"><span class="keep">アミューズ、</span><span class="keep">前菜2皿、</span><span class="keep">スープ、</span><span class="keep">魚料理、</span><span class="keep">肉料理、</span><span class="keep">デザート。</span><span class="keep">旬の入荷と会場に合わせて、</span><span class="keep">内容は開催ごとに変わります。</span></p>
+          <p class="course-price">¥8,800 <span>税込・サービス料別</span></p>
+        </div>
+        <ul class="menu-list" aria-label="コース構成">
+          <li><span>01</span>Amuse</li>
+          <li><span>02</span>Entree</li>
+          <li><span>03</span>Entree</li>
+          <li><span>04</span>Soup</li>
+          <li><span>05</span>Poisson</li>
+          <li><span>06</span>Viande</li>
+          <li><span>07</span>Dessert</li>
+        </ul>
+      </div>
+      <div class="gallery-heading">
+        <p class="section-label">Gallery</p>
+      </div>
+      <div class="dish-slider" aria-label="料理写真スライダー">
+        <div class="slider-frame">
+          <div class="slider-track" data-slider-track>
+            <img src="assets/edamame-tart.jpg" alt="料理写真 1" data-lightbox-image>
+            <img src="assets/tomato-cheese.jpg" alt="料理写真 2" data-lightbox-image>
+            <img src="assets/grilled-mushroom.jpg" alt="料理写真 3" data-lightbox-image>
+            <img src="assets/fish-terrine.jpg" alt="料理写真 4" data-lightbox-image>
+            <img src="assets/salmon-wellington.jpg" alt="料理写真 5" data-lightbox-image>
+          </div>
+        </div>
+        <div class="slider-controls" aria-label="写真操作">
+          <button type="button" class="slider-button" data-slider-prev aria-label="前の写真">‹</button>
+          <div class="slider-dots" aria-label="写真の位置">
+            <button type="button" data-slider-dot aria-label="1枚目の写真"></button>
+            <button type="button" data-slider-dot aria-label="2枚目の写真"></button>
+            <button type="button" data-slider-dot aria-label="3枚目の写真"></button>
+            <button type="button" data-slider-dot aria-label="4枚目の写真"></button>
+            <button type="button" data-slider-dot aria-label="5枚目の写真"></button>
+          </div>
+          <button type="button" class="slider-button" data-slider-next aria-label="次の写真">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="popup" class="space-section">
+      <div class="space-copy">
+        <p class="section-label">Popup</p>
+        <h2><span class="keep">開催日は不定期。</span><span class="keep">場所はその都度、東京都内で。</span></h2>
+        <p><span class="keep">会場に合わせて席数、</span><span class="keep">料理の流れ、</span><span class="keep">ワインの組み合わせを</span>少しずつ変えます。<span class="keep">次回の案内は、</span><span class="keep">準備が整い次第お知らせします。</span></p>
+      </div>
+      <div class="hours-panel" id="info">
+        <dl>
+          <div>
+            <dt>Schedule</dt>
+            <dd>不定期開催</dd>
+          </div>
+          <div>
+            <dt>Location</dt>
+            <dd><span class="keep">東京都内・</span><span class="keep">開催回ごとに案内</span></dd>
+          </div>
+          <div>
+            <dt>Seats</dt>
+            <dd>会場により変動</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="reserve" class="reserve-section">
+      <div>
+        <p class="section-label">Reserve</p>
+        <h2><span class="keep">次回開催の案内を</span><span class="keep">受け取る。</span></h2>
+      </div>
+      <form class="reserve-form">
+        <label>
+          <span>お名前</span>
+          <input type="text" name="name" autocomplete="name">
+        </label>
+        <label>
+          <span>メールアドレス</span>
+          <input type="email" name="email" autocomplete="email">
+        </label>
+        <label>
+          <span>ご希望人数</span>
+          <select name="party">
+            <option>1名</option>
+            <option>2名</option>
+            <option>3名</option>
+            <option>4名以上</option>
+          </select>
+        </label>
+        <button type="submit">次回案内を希望する</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>21</span>
+    <span>French Restaurant</span>
+  </footer>
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <button type="button" class="lightbox-close" data-lightbox-close aria-label="閉じる">×</button>
+    <img src="" alt="" data-lightbox-preview>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
