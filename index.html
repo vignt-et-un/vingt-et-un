@@ -38,7 +38,7 @@
         <p class="section-label">Concept</p>
         <h2><span class="keep">基本はコース。</span><span class="keep">食材の移ろいに合わせて、</span><span class="keep">夜の流れを仕立てます。</span></h2>
       </div>
-      <p>21は、<span class="keep">東京都内のさまざまな場所で</span><span class="keep">不定期に開く</span>ポップアップ形式のフレンチレストランです。<span class="keep">会場も席数も、</span><span class="keep">その回ごとに変わります。</span>肩肘を張りすぎず、けれど一皿ごとの余韻はきちんと残るように。火入れ、ソース、香りの重なりを大切にしています。</p>
+      <p>21は、<span class="keep">東京都内のさまざまな場所で</span><span class="keep">不定期に開く</span>ポップアップ形式のフレンチレストランです。<span class="keep">会場も席数も、その回ごとに変わります。</span>肩肘を張りすぎず、けれど一皿ごとの余韻はきちんと残るように。火入れ、ソース、香りの重なりを大切にしています。</p>
     </section>
 
     <section id="course" class="course-section">
@@ -118,26 +118,26 @@
         <p class="section-label">Reserve</p>
         <h2><span class="keep">次回開催の案内を</span><span class="keep">受け取る。</span></h2>
       </div>
-      <form class="reserve-form">
-        <label>
-          <span>お名前</span>
-          <input type="text" name="name" autocomplete="name">
-        </label>
-        <label>
-          <span>メールアドレス</span>
-          <input type="email" name="email" autocomplete="email">
-        </label>
-        <label>
-          <span>ご希望人数</span>
-          <select name="party">
-            <option>1名</option>
-            <option>2名</option>
-            <option>3名</option>
-            <option>4名以上</option>
-          </select>
-        </label>
-        <button type="submit">次回案内を希望する</button>
-      </form>
+     <form class="reserve-form" action="https://formspree.io/f/mjgdklap" method="POST">
+  <label>
+    <span>お名前</span>
+    <input type="text" name="name" autocomplete="name" required>
+  </label>
+  <label>
+    <span>メールアドレス</span>
+    <input type="email" name="email" autocomplete="email" required>
+  </label>
+  <label>
+    <span>ご希望人数</span>
+    <select name="party">
+      <option value="1名">1名</option>
+      <option value="2名">2名</option>
+      <option value="3名">3名</option>
+      <option value="4名以上">4名以上</option>
+    </select>
+  </label>
+  <button type="submit">次回案内を希望する</button>
+</form>
     </section>
   </main>
 
